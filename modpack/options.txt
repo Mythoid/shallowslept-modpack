@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","fabric","file/Ashen_1.8.3.zip","file/CombatCrosshair.zip","file/Iron\u0027s_3D_Spell_book_v2.0.zip"]
+incompatibleResourcePacks:["file/CombatCrosshair.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -198,6 +198,16 @@ key_key.jei.showRecipe:key.keyboard.r
 key_key.jei.recipeBack:key.keyboard.backspace
 key_key.jei.showUses:key.keyboard.u
 key_key.l2mods.dig:key.keyboard.grave.accent
+key_key.push_to_talk:key.keyboard.unknown
+key_key.whisper:key.keyboard.unknown
+key_key.mute_microphone:key.keyboard.semicolon
+key_key.disable_voice_chat:key.keyboard.unknown
+key_key.hide_icons:key.keyboard.unknown
+key_key.voice_chat:key.keyboard.c
+key_key.voice_chat_settings:key.keyboard.unknown
+key_key.voice_chat_group:key.keyboard.apostrophe
+key_key.voice_chat_toggle_recording:key.keyboard.unknown
+key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_keybinds.combatroll.roll:key.keyboard.left.alt
