@@ -1,0 +1,1708 @@
+{
+	"elementalist_root": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.elementalist_root.title",
+			"fallback": "Elementalist"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:fire_upgrade_orb"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.elementalist_root.description",
+			"fallback": "Take the path of controlling the worldly powers and bending the nature to your will."
+		},
+		"rewards": [],
+		"cost": 0
+	},
+	"arcanist_root": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.arcanist_root.title",
+			"fallback": "Arcanist"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ender_upgrade_orb"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.arcanist_root.description",
+			"fallback": "Pursue the unthinkable concepts and lay upon the miracles you conjure."
+		},
+		"rewards": [],
+		"cost": 0
+	},
+	"add_mana_small": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.add_mana_small.title",
+			"fallback": "Mana Capacity"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:potion",
+                "nbt": "{\"CustomPotionColor\": 1014}"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+        "size": 0.7,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.add_mana_small.description",
+			"fallback": "+%s Mana",
+			"with": [
+				"50"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1
+	},
+	"add_mana_large": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.add_mana_large.title",
+			"fallback": "Greater Mana Capacity"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:potion",
+                "nbt": "{\"CustomPotionColor\": 1482}"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.add_mana_large.description",
+			"fallback": "+%s Mana",
+			"with": [
+				"100"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 100,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1
+	},
+	"fire_spell_power": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.fire_spell_power.title",
+			"fallback": "Fire Spell Mastery",
+            "color": "gold"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:fire_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.fire_spell_power.description",
+			"fallback": "+%s%% Fire Spell Power",
+			"with": [
+				"20"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1
+	},
+	"fire_magic_resist": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.fire_magic_resist.title",
+			"fallback": "Fire Magic Protection",
+            "color": "gold"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:fire_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.fire_magic_resist.description",
+			"fallback": "+%s%% Fire Magic Resist",
+			"with": [
+				"15"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_magic_resist",
+					"value": 1.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1
+	},
+	"ice_spell_power": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.ice_spell_power.title",
+			"fallback": "Ice Spell Mastery",
+            "color": "#d0f9ff"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ice_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.ice_spell_power.description",
+			"fallback": "+%s%% Ice Spell Power",
+			"with": [
+				"20"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1
+	},
+	"ice_magic_resist": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.ice_magic_resist.title",
+			"fallback": "Ice Magic Protection",
+            "color": "#d0f9ff"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ice_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.ice_magic_resist.description",
+			"fallback": "+%s%% Ice Magic Resist",
+			"with": [
+				"15"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_magic_resist",
+					"value": 1.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1
+	},
+    "lightning_spell_power": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.lightning_spell_power.title",
+			"fallback": "Lightning Spell Mastery",
+            "color": "aqua"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:lightning_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.lightning_spell_power.description",
+			"fallback": "+%s%% Lightning Spell Power",
+			"with": [
+				"20"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1
+	},
+	"lightning_magic_resist": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.lightning_magic_resist.title",
+			"fallback": "Lightning Magic Protection",
+            "color": "aqua"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:lightning_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.lightning_magic_resist.description",
+			"fallback": "+%s%% Lightning Magic Resist",
+			"with": [
+				"15"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_magic_resist",
+					"value": 1.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1
+	},
+    "nature_spell_power": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.nature_spell_power.title",
+			"fallback": "Nature Spell Mastery",
+            "color": "green"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:nature_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.nature_spell_power.description",
+			"fallback": "+%s%% Nature Spell Power",
+			"with": [
+				"20"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1
+	},
+	"nature_magic_resist": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.nature_magic_resist.title",
+			"fallback": "Nature Magic Protection",
+            "color": "green"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:nature_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.nature_magic_resist.description",
+			"fallback": "+%s%% Nature Magic Resist",
+			"with": [
+				"15"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_magic_resist",
+					"value": 1.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1
+	},
+    "blood_spell_power": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.blood_spell_power.title",
+			"fallback": "Blood Spell Mastery",
+            "color": "dark_red"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:blood_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.blood_spell_power.description",
+			"fallback": "+%s%% Blood Spell Power",
+			"with": [
+				"20"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1
+	},
+	"blood_magic_resist": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.blood_magic_resist.title",
+			"fallback": "Blood Magic Protection",
+            "color": "dark_red"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:blood_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.blood_magic_resist.description",
+			"fallback": "+%s%% Blood Magic Resist",
+			"with": [
+				"15"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_magic_resist",
+					"value": 1.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1
+	},
+    "ender_spell_power": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.ender_spell_power.title",
+			"fallback": "Ender Spell Mastery",
+            "color": "light_purple"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ender_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.ender_spell_power.description",
+			"fallback": "+%s%% Ender Spell Power",
+			"with": [
+				"20"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1
+	},
+	"ender_magic_resist": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.ender_magic_resist.title",
+			"fallback": "Ender Magic Protection",
+            "color": "light_purple"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ender_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.ender_magic_resist.description",
+			"fallback": "+%s%% Ender Magic Resist",
+			"with": [
+				"15"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_magic_resist",
+					"value": 1.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1
+	},
+    "evocation_spell_power": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.evocation_spell_power.title",
+			"fallback": "Evocation Spell Mastery",
+            "color": "white"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:evocation_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.evocation_spell_power.description",
+			"fallback": "+%s%% Evocation Spell Power",
+			"with": [
+				"20"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1
+	},
+	"evocation_magic_resist": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.evocation_magic_resist.title",
+			"fallback": "Evocation Magic Protection",
+            "color": "white"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:evocation_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.evocation_magic_resist.description",
+			"fallback": "+%s%% Evocation Magic Resist",
+			"with": [
+				"15"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_magic_resist",
+					"value": 1.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1
+	},
+    "holy_spell_power": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.holy_spell_power.title",
+			"fallback": "Holy Spell Mastery",
+            "color": "#fff8d4"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:holy_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.holy_spell_power.description",
+			"fallback": "+%s%% Holy Spell Power",
+			"with": [
+				"20"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1
+	},
+	"holy_magic_resist": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.holy_magic_resist.title",
+			"fallback": "Holy Magic Protection",
+            "color": "#fff8d4"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:holy_rune"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.holy_magic_resist.description",
+			"fallback": "+%s%% Holy Magic Resist",
+			"with": [
+				"15"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_magic_resist",
+					"value": 1.15,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1
+	},
+    "pyromancy": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.pyromancy.title",
+			"fallback": "Pyromancy",
+            "color": "gold"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:fire_upgrade_orb"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "size": 1.2,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.pyromancy.description",
+			"fallback": "§8§oLay wastes upon, the calamity of flames.§7\n+%s%% Fire Spell Power\n-%s%% Other Elemental Spell Powers",
+            "with": [
+                "100", "60"
+            ]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1,
+        "required_skills": 2
+	},
+    "cryomancy": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.cryomancy.title",
+			"fallback": "Cryomancy",
+            "color": "#d0f9ff"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ice_upgrade_orb"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "size": 1.2,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.cryomancy.description",
+			"fallback": "§8§oCold brings desolation but strong-willed ones prevail.§7\n+%s%% Ice Spell Power\n-%s%% Other Elemental Spell Powers",
+            "with": [
+                "100", "60"
+            ]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1,
+        "required_skills": 2
+    },
+    "cryomancy": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.cryomancy.title",
+			"fallback": "Cryomancy",
+            "color": "#d0f9ff"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ice_upgrade_orb"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "size": 1.2,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.cryomancy.description",
+			"fallback": "§8§oCold brings desolation but strong-willed ones prevail.§7\n+%s%% Ice Spell Power\n-%s%% Other Elemental Spell Powers",
+            "with": [
+                "100", "60"
+            ]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1,
+        "required_skills": 2
+    },
+    "storm_sorcery": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.storm_sorcery.title",
+			"fallback": "Storm Sorcery",
+            "color": "aqua"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:lightning_upgrade_orb"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "size": 1.2,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.storm_sorcery.description",
+			"fallback": "§8§oBehold the wrath of sky god, shalt smite the unworthy.§7\n+%s%% Lightning Spell Power\n-%s%% Other Elemental Spell Powers",
+            "with": [
+                "100", "60"
+            ]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1,
+        "required_skills": 2
+    },
+    "apothecary": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.apothecary.title",
+			"fallback": "Apothecary",
+            "color": "green"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:nature_upgrade_orb"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "size": 1.2,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.apothecary.description",
+			"fallback": "§8§oWeeds and parasites, to rot and corrode.§7\n+%s%% Nature Spell Power\n-%s%% Other Elemental Spell Powers",
+            "with": [
+                "100", "60"
+            ]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1,
+        "required_skills": 2
+    },
+    "apothecary": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.apothecary.title",
+			"fallback": "Apothecary",
+            "color": "green"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:nature_upgrade_orb"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "size": 1.2,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.apothecary.description",
+			"fallback": "§8§oWeeds and parasites, to rot and corrode.§7\n+%s%% Nature Spell Power\n-%s%% Other Elemental Spell Powers",
+            "with": [
+                "100", "60"
+            ]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1,
+        "required_skills": 2
+    },
+    "hemomancy": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.hemomancy.title",
+			"fallback": "Hemomancy",
+            "color": "dark_red"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:blood_upgrade_orb"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "size": 1.2,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.hemomancy.description",
+			"fallback": "§8§oThe offerings of flesh, provided by your enemies.§7\n+%s%% Blood Spell Power\n-%s%% Other Arcane Spell Powers",
+            "with": [
+                "100", "60"
+            ]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1,
+        "required_skills": 2
+    },
+    "endethurgy": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.endethurgy.title",
+			"fallback": "Endethurgy",
+            "color": "light_purple"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ender_upgrade_orb"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "size": 1.2,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.endethurgy.description",
+			"fallback": "§8§oProminence of the end, with you controlling the outcome.§7\n+%s%% Ender Spell Power\n-%s%% Other Arcane Spell Powers",
+            "with": [
+                "100", "60"
+            ]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1,
+        "required_skills": 2
+    },
+    "spiritualism": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.spiritualism.title",
+			"fallback": "Spiritualism",
+            "color": "white"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:evocation_upgrade_orb"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "size": 1.2,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.spiritualism.description",
+			"fallback": "§8§oCall forth the ancestors and guardians, and evoke the war.§7\n+%s%% Evocation Spell Power\n-%s%% Other Arcane Spell Powers",
+            "with": [
+                "100", "60"
+            ]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1,
+        "required_skills": 2
+    },
+    "cleregy": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.cleregy.title",
+			"fallback": "Cleregy",
+            "color": "#fff8d4"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:holy_upgrade_orb"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "size": 1.2,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.endethurgy.description",
+			"fallback": "§8§oBathe in the light of diety, trample over any oppressors.§7\n+%s%% Holy Spell Power\n-%s%% Other Arcane Spell Powers",
+            "with": [
+                "100", "60"
+            ]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": -0.6,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1,
+        "required_skills": 2
+    },
+    "add_mana_recovery_small": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.add_mana_recovery_small.title",
+			"fallback": "Spirit Recovery"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:potion",
+                "nbt": "{\"CustomPotionColor\": 8439702}"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+        "size": 0.7,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.add_mana_recovery_small.description",
+			"fallback": "+%s%% Mana Regeneration",
+			"with": [
+				"3"
+			]
+		},
+        "extra_description": {
+            "translate": "mahousekai.puffish_skills.unlock_with_points_spent",
+			"fallback": "Unlocks at %s points spent",
+            "with": [
+                "5"
+            ]
+        },
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 1.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1,
+        "required_spent_points": 5
+	},
+    "add_mana_recovery_large": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.add_mana_recovery_large.title",
+			"fallback": "Greater Spirit Recovery"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:potion",
+                "nbt": "{\"CustomPotionColor\": 11789002}"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.add_mana_recovery_large.description",
+			"fallback": "+%s%% Mana Regeneration",
+			"with": [
+				"8"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 1.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1
+	},
+    "cooldown_reduction": {
+        "title": {
+			"translate": "mahousekai.puffish_skills.definitions.cooldown_reduction.title",
+			"fallback": "Spell Lag Mitigation"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.cooldown_reduction.description",
+			"fallback": "-%s%% Spell Cooldown",
+			"with": [
+				"10"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"cost": 1
+    },
+    "summon_damage": {
+        "title": {
+			"translate": "mahousekai.puffish_skills.definitions.summon_damage.title",
+			"fallback": "Powerful Summons"
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:zombie_head"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.summon_damage.description",
+			"fallback": "+%s%% Summon Damage",
+			"with": [
+				"20"
+			]
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:summon_damage",
+					"value": 1.2,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1
+    },
+    "left_eye": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.left_eye.title",
+			"fallback": "Left Eye of Ruin",
+            "color": "red",
+            "bold": true
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:magma_cream"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "size": 1.5,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.left_eye.description",
+			"fallback": "§8§oEmbrace taint, purity is no more.§7\n+%s%% Arcane Spell Powers\n-%s%% Elemental Magic Resist",
+            "with": [
+                "150", "50"
+            ]
+		},
+        "extra_description": {
+            "translate": "mahousekai.puffish_skills.unlock_with_points_spent",
+			"fallback": "Unlocks at %s points spent",
+            "with": [
+                "24"
+            ]
+        },
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 1.5,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 1.5,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value":  1.5,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value":  1.5,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_magic_resist",
+					"value": 0.5,
+					"operation": "multiply_total"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_magic_resist",
+					"value": 0.5,
+					"operation": "multiply_total"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_magic_resist",
+					"value": 0.5,
+					"operation": "multiply_total"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_magic_resist",
+					"value": 0.5,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1,
+        "required_spent_points": 24
+    },
+    "right_eye": {
+		"title": {
+			"translate": "mahousekai.puffish_skills.definitions.right_eye.title",
+			"fallback": "Right Eye of Calamity",
+            "color": "red",
+            "bold": true
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:divine_pearl"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+        "size": 1.5,
+		"description": {
+			"translate": "mahousekai.puffish_skills.definitions.right_eye.description",
+			"fallback": "§8§oArcanic magic perceives no order, only nature leads the result.§7\n+%s%% Elemental Spell Powers\n-%s%% Arcane Magic Resist",
+            "with": [
+                "150", "50"
+            ]
+		},
+        "extra_description": {
+            "translate": "mahousekai.puffish_skills.unlock_with_points_spent",
+			"fallback": "Unlocks at %s points spent",
+            "with": [
+                "24"
+            ]
+        },
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 1.5,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 1.5,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value":  1.5,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value":  1.5,
+					"operation": "addition"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_magic_resist",
+					"value": 0.5,
+					"operation": "multiply_total"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_magic_resist",
+					"value": 0.5,
+					"operation": "multiply_total"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_magic_resist",
+					"value": 0.5,
+					"operation": "multiply_total"
+				}
+			},
+            {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_magic_resist",
+					"value": 0.5,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"cost": 1,
+        "required_spent_points": 24
+    }
+}

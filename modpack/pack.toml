@@ -1,0 +1,13 @@
+name = "Shallowslept"
+author = "Mythoid"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "17edeff8f6159b621ce288cb58e485292386687809e394ccefca054f6e31b901"
+
+[versions]
+forge = "47.3.10"
+minecraft = "1.20.1"

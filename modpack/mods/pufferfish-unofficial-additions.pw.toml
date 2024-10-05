@@ -1,0 +1,8 @@
+name = "Pufferfish's Unofficial Additions"
+filename = "pufferfish_unofficial_additions-1.20.1-2.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4a16d2c20378be7f3b2b98829ba985d583a0b4a1"
+url = "https://raw.githubusercontent.com/Mythoid/external-mods-artifacts/master/SiverDX/pufferfish_unofficial_additions/neoforge/1.20.1/pufferfish_unofficial_additions-1.20.1-2.2.2.jar"

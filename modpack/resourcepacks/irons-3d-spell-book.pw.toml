@@ -1,0 +1,13 @@
+name = "Iron's 3D Spell book"
+filename = "Iron's_3D_Spell_book_v2.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4d4b6fe030f9835a552dfcb7e6bb0a30cf93715a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5153741
+project-id = 864050

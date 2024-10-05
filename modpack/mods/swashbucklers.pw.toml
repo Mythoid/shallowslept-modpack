@@ -1,0 +1,13 @@
+name = "Swashbucklers!"
+filename = "Swashbucklers! 2.6.5 1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "124bedae8da11e321f8d097a8437b6fb18d4dde2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5742632
+project-id = 746320

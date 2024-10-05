@@ -1,0 +1,13 @@
+name = "More Mobs [Server] [Forge/Fabric/Quilt]"
+filename = "more_mobs-v1.5-mc1.14x-1.20x-mod.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "48df98501a9da73839c3de3d5cbc1ee8cc95aefb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4735501
+project-id = 909654

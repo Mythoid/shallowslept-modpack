@@ -1,0 +1,16 @@
+{
+    "unlocked_by_default": true,
+    "exclusive_root": true,
+    "title": {
+        "translate": "mahousekai.puffish_skills.category.magic.title",
+        "fallback": "Magic"
+    },
+    "icon": {
+        "type": "item",
+        "data": {
+            "item": "irons_spellbooks:gold_spell_book"
+        }
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+    "spent_points_limit": 50
+}

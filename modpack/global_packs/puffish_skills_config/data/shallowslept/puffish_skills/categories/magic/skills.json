@@ -1,0 +1,638 @@
+{
+	"lrra4k2q7jxxmilw": {
+		"definition": "arcanist_root",
+		"x": 64,
+		"y": 0,
+		"root": true
+	},
+	"2cnap9on9we9ns7r": {
+		"definition": "elementalist_root",
+		"x": -64,
+		"y": 0,
+		"root": true
+	},
+	"602hek3xcbna15ps": {
+		"definition": "add_mana_small",
+		"x": -64,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"gznxnsk2v7b3aq80": {
+		"definition": "add_mana_small",
+		"x": -128,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"sfronmn2ciokwl8s": {
+		"definition": "add_mana_small",
+		"x": -128,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"3e1typhfh20awb59": {
+		"definition": "add_mana_small",
+		"x": -64,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"gn3wuzch4klprecj": {
+		"definition": "add_mana_small",
+		"x": 64,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"0g07m0ot5cxcfqds": {
+		"definition": "add_mana_small",
+		"x": 128,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"mr23pglv7y4uzfdz": {
+		"definition": "add_mana_small",
+		"x": 128,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"lnhe4mw3u7gxwumq": {
+		"definition": "add_mana_small",
+		"x": 64,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"3d3ztesk907djrsl": {
+		"definition": "add_mana_small",
+		"x": -96,
+		"y": -129.32646029847615,
+		"root": false
+	},
+	"tx89s4vyxwvrwevz": {
+		"definition": "fire_spell_power",
+		"x": -160,
+		"y": -166.27687752661222,
+		"root": false
+	},
+	"5wb4yz6b5xkwpxg3": {
+		"definition": "fire_spell_power",
+		"x": -224,
+		"y": -203.22729475474824,
+		"root": false
+	},
+	"u9mokb1132j6reb1": {
+		"definition": "fire_magic_resist",
+		"x": -96,
+		"y": -203.22729475474824,
+		"root": false
+	},
+	"mjxt4vn6c5yyis32": {
+		"definition": "fire_magic_resist",
+		"x": -96,
+		"y": -277.12812921102034,
+		"root": false
+	},
+	"qdcr028mxmmzpc8c": {
+		"definition": "fire_magic_resist",
+		"x": -160,
+		"y": -314.0785464391564,
+		"root": false
+	},
+	"zx11tz7gf4fpixir": {
+		"definition": "fire_spell_power",
+		"x": -224,
+		"y": -277.12812921102034,
+		"root": false
+	},
+	"63021ulz1wgoz7jy": {
+		"definition": "add_mana_large",
+		"x": -224,
+		"y": -351.02896366729243,
+		"root": false
+	},
+	"3zstmp58x03wofof": {
+		"definition": "add_mana_small",
+		"x": -192,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"oi21y8u80ozfc4qq": {
+		"definition": "add_mana_small",
+		"x": -192,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"ambo32cnukuzg1tk": {
+		"definition": "ice_spell_power",
+		"x": -256,
+		"y": -36.950417228136075,
+		"root": false
+	},
+	"3ru7n1in94cd6959": {
+		"definition": "ice_spell_power",
+		"x": -320,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"jl3bv92bf92wkoyc": {
+		"definition": "ice_spell_power",
+		"x": -416,
+		"y": -55.425625842204056,
+		"root": false
+	},
+	"3wihsc403d94g5gj": {
+		"definition": "ice_magic_resist",
+		"x": -256,
+		"y": -110.85125168440817,
+		"root": false
+	},
+	"ajzresdoez9co22n": {
+		"definition": "ice_magic_resist",
+		"x": -320,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"aiwqthogsjdvntjw": {
+		"definition": "add_mana_large",
+		"x": -480,
+		"y": -166.27687752661222,
+		"root": false
+	},
+	"32jgte4uu3bgu4wi": {
+		"definition": "lightning_spell_power",
+		"x": -256,
+		"y": 36.95041722813602,
+		"root": false
+	},
+	"au46s3m2v1wcuskj": {
+		"definition": "lightning_spell_power",
+		"x": -320,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"w599deccsjhgxchm": {
+		"definition": "lightning_spell_power",
+		"x": -416,
+		"y": 55.425625842204084,
+		"root": false
+	},
+	"eq5ibl2nnccs5ghs": {
+		"definition": "lightning_magic_resist",
+		"x": -256,
+		"y": 110.85125168440808,
+		"root": false
+	},
+	"5vz6eossde0lsw1i": {
+		"definition": "lightning_magic_resist",
+		"x": -320,
+		"y": 147.80166891254422,
+		"root": false
+	},
+	"4xemg6jx1orbxcav": {
+		"definition": "lightning_magic_resist",
+		"x": -384,
+		"y": 221.70250336881625,
+		"root": false
+	},
+	"ggrids54t1pboqja": {
+		"definition": "add_mana_large",
+		"x": -480,
+		"y": 166.2768775266122,
+		"root": false
+	},
+	"hwg3fxuj3i3hecko": {
+		"definition": "add_mana_small",
+		"x": -96,
+		"y": 129.32646029847615,
+		"root": false
+	},
+	"pey3mac5az0qz8qe": {
+		"definition": "nature_spell_power",
+		"x": -160,
+		"y": 166.27687752661217,
+		"root": false
+	},
+	"u6kkxyv0sqad75y3": {
+		"definition": "nature_spell_power",
+		"x": -224,
+		"y": 203.2272947547483,
+		"root": false
+	},
+	"va1x93otxu2rcu5e": {
+		"definition": "nature_spell_power",
+		"x": -224,
+		"y": 277.12812921102034,
+		"root": false
+	},
+	"d08ypchfb03mlzti": {
+		"definition": "nature_magic_resist",
+		"x": -96,
+		"y": 203.22729475474824,
+		"root": false
+	},
+	"cp66vumcbbn1r5iw": {
+		"definition": "nature_magic_resist",
+		"x": -96,
+		"y": 277.1281292110204,
+		"root": false
+	},
+	"x10kqs3h1cgahkvh": {
+		"definition": "nature_magic_resist",
+		"x": -160,
+		"y": 314.07854643915636,
+		"root": false
+	},
+	"mf03dxd21m5jrlmf": {
+		"definition": "add_mana_large",
+		"x": -224,
+		"y": 351.0289636672925,
+		"root": false
+	},
+	"f67aok6sj4r8cxnr": {
+		"definition": "ice_magic_resist",
+		"x": -384,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"o9bqscpqksgfk4gl": {
+		"definition": "add_mana_small",
+		"x": 96,
+		"y": -129.32646029847615,
+		"root": false
+	},
+	"xh423ucls5wtfjmk": {
+		"definition": "add_mana_small",
+		"x": 192,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"0n0w46ooxs6mfcfy": {
+		"definition": "add_mana_small",
+		"x": 192,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"7u5wg26xvxwga8by": {
+		"definition": "add_mana_small",
+		"x": 96,
+		"y": 129.32646029847615,
+		"root": false
+	},
+	"c15rp76ox75ewzv9": {
+		"definition": "blood_spell_power",
+		"x": 160,
+		"y": -166.27687752661217,
+		"root": false
+	},
+	"bnmvyzjybfnir771": {
+		"definition": "blood_spell_power",
+		"x": 224,
+		"y": -203.2272947547483,
+		"root": false
+	},
+	"gkrc0006ou567000": {
+		"definition": "blood_spell_power",
+		"x": 224,
+		"y": -277.12812921102034,
+		"root": false
+	},
+	"9u8upuixbnvn0u0x": {
+		"definition": "blood_magic_resist",
+		"x": 96,
+		"y": -203.22729475474824,
+		"root": false
+	},
+	"op3tj38gxbdqegwr": {
+		"definition": "blood_magic_resist",
+		"x": 96,
+		"y": -277.1281292110204,
+		"root": false
+	},
+	"qanjts9ij3wl1ftt": {
+		"definition": "blood_magic_resist",
+		"x": 160,
+		"y": -314.07854643915636,
+		"root": false
+	},
+	"dumum4p2vb8s83ql": {
+		"definition": "add_mana_large",
+		"x": 224,
+		"y": -351.0289636672925,
+		"root": false
+	},
+	"y61jmpomstjuel1a": {
+		"definition": "ender_spell_power",
+		"x": 256,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"pe24ta6wnpx5mv1q": {
+		"definition": "ender_spell_power",
+		"x": 320,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"1yprzi6th9ad5ku1": {
+		"definition": "ender_spell_power",
+		"x": 416,
+		"y": -55.425625842204056,
+		"root": false
+	},
+	"78lq4i3azblh9w5c": {
+		"definition": "ender_magic_resist",
+		"x": 256,
+		"y": -110.85125168440811,
+		"root": false
+	},
+	"4ozu400llity27vb": {
+		"definition": "ender_magic_resist",
+		"x": 320,
+		"y": -147.80166891254422,
+		"root": false
+	},
+	"r5o54fgsiaoz2ck8": {
+		"definition": "ender_magic_resist",
+		"x": 384,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"mdlvz6cuawejbkpd": {
+		"definition": "add_mana_large",
+		"x": 480,
+		"y": -166.27687752661222,
+		"root": false
+	},
+	"a8nzrzjbdy36f0lr": {
+		"definition": "evocation_spell_power",
+		"x": 256,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"wacj9d13te3el9ro": {
+		"definition": "evocation_spell_power",
+		"x": 320,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"blct4saztt4xovcn": {
+		"definition": "evocation_spell_power",
+		"x": 416,
+		"y": 55.425625842204084,
+		"root": false
+	},
+	"3199aqq3ihjb86vx": {
+		"definition": "evocation_magic_resist",
+		"x": 256,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"3qzy6nvhnpulza9i": {
+		"definition": "evocation_magic_resist",
+		"x": 320,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"l5ygvc92yfk5p7bb": {
+		"definition": "evocation_magic_resist",
+		"x": 384,
+		"y": 221.70250336881628,
+		"root": false
+	},
+	"rmah6q8yo6ozglp7": {
+		"definition": "add_mana_large",
+		"x": 480,
+		"y": 166.2768775266122,
+		"root": false
+	},
+	"l8jyj10kmbs3xjbi": {
+		"definition": "holy_spell_power",
+		"x": 160,
+		"y": 166.27687752661222,
+		"root": false
+	},
+	"6zb8v9geyw3m6u4z": {
+		"definition": "holy_spell_power",
+		"x": 224,
+		"y": 203.22729475474824,
+		"root": false
+	},
+	"6bj99npc6lggex7u": {
+		"definition": "holy_spell_power",
+		"x": 224,
+		"y": 277.12812921102034,
+		"root": false
+	},
+	"7rkufyscqdckf50x": {
+		"definition": "holy_magic_resist",
+		"x": 96,
+		"y": 203.22729475474824,
+		"root": false
+	},
+	"lheb3kwow3gcivml": {
+		"definition": "holy_magic_resist",
+		"x": 96,
+		"y": 277.12812921102034,
+		"root": false
+	},
+	"yihde6eiwqkijde3": {
+		"definition": "holy_magic_resist",
+		"x": 160,
+		"y": 314.0785464391564,
+		"root": false
+	},
+	"1wpezkmdvrrq1ej8": {
+		"definition": "add_mana_large",
+		"x": 224,
+		"y": 351.02896366729243,
+		"root": false
+	},
+	"qxn2dgi54yo4s201": {
+		"definition": "pyromancy",
+		"x": -160,
+		"y": -240.17771198288432,
+		"root": false
+	},
+	"89go14746j20piuc": {
+		"definition": "cryomancy",
+		"x": -352,
+		"y": -92.3760430703401,
+		"root": false
+	},
+	"qdijjok67pfsirn7": {
+		"definition": "storm_sorcery",
+		"x": -352,
+		"y": 92.37604307034013,
+		"root": false
+	},
+	"1gs7tlsia1r2ox3u": {
+		"definition": "apothecary",
+		"x": -160,
+		"y": 240.17771198288432,
+		"root": false
+	},
+	"3tvegh10zai4k6u6": {
+		"definition": "hemomancy",
+		"x": 160,
+		"y": -240.17771198288432,
+		"root": false
+	},
+	"chdkky2dfz9xgvep": {
+		"definition": "endethurgy",
+		"x": 352,
+		"y": -92.37604307034013,
+		"root": false
+	},
+	"b60da9yi3prbxyw4": {
+		"definition": "spiritualism",
+		"x": 352,
+		"y": 92.3760430703401,
+		"root": false
+	},
+	"uirdhauhohtfqfzv": {
+		"definition": "cleregy",
+		"x": 160,
+		"y": 240.17771198288432,
+		"root": false
+	},
+	"xo4z2k0t3345ne4e": {
+		"definition": "add_mana_recovery_small",
+		"x": 0,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"9cnmz487qt8s2nyb": {
+		"definition": "add_mana_recovery_small",
+		"x": 0,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"d4idac38usr831r8": {
+		"definition": "add_mana_small",
+		"x": 0,
+		"y": -332.55375505322445,
+		"root": false
+	},
+	"nnrjnet5c5piv159": {
+		"definition": "add_mana_recovery_small",
+		"x": 0,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"m1ze6amplqjvviac": {
+		"definition": "add_mana_recovery_small",
+		"x": 0,
+		"y": 184.75208614068023,
+		"root": false
+	},
+	"4dfjvi824hi5inox": {
+		"definition": "add_mana_small",
+		"x": 0,
+		"y": 332.55375505322445,
+		"root": false
+	},
+	"rjb3t6nm6mdlkhj9": {
+		"definition": "add_mana_small",
+		"x": -160,
+		"y": 461.88021535170054,
+		"root": false
+	},
+	"0srtv2py3l76npxl": {
+		"definition": "cooldown_reduction",
+		"x": -672,
+		"y": 277.1281292110204,
+		"root": false
+	},
+	"rhf0uc28qaapau7o": {
+		"definition": "cooldown_reduction",
+		"x": -480,
+		"y": 461.8802153517006,
+		"root": false
+	},
+	"o2sn6fl1wxw7euil": {
+		"definition": "add_mana_recovery_large",
+		"x": -768,
+		"y": 0,
+		"root": false
+	},
+	"tnlv918f1brczfsi": {
+		"definition": "summon_damage",
+		"x": -672,
+		"y": -277.12812921102034,
+		"root": false
+	},
+	"736le4gbsshb472o": {
+		"definition": "summon_damage",
+		"x": -480,
+		"y": -461.8802153517006,
+		"root": false
+	},
+	"apg9xt2xzc7vkj2r": {
+		"definition": "add_mana_small",
+		"x": 160,
+		"y": -461.88021535170054,
+		"root": false
+	},
+	"o45jxedq4vkzh65a": {
+		"definition": "cooldown_reduction",
+		"x": 480,
+		"y": -461.8802153517006,
+		"root": false
+	},
+	"wi3mpcse27fk45w5": {
+		"definition": "cooldown_reduction",
+		"x": 672,
+		"y": -277.1281292110204,
+		"root": false
+	},
+	"lrxyk97caf0d88pk": {
+		"definition": "add_mana_recovery_large",
+		"x": 768,
+		"y": 0,
+		"root": false
+	},
+	"pzutt8hvslqvc79n": {
+		"definition": "summon_damage",
+		"x": 672,
+		"y": 277.12812921102034,
+		"root": false
+	},
+	"fxocvmv72oi3oz3m": {
+		"definition": "summon_damage",
+		"x": 480,
+		"y": 461.8802153517006,
+		"root": false
+	},
+	"tkuve5emhtxs658y": {
+		"definition": "cooldown_reduction",
+		"x": -608,
+		"y": -203.22729475474824,
+		"root": false
+	},
+	"x20x81ggu9u8zhr4": {
+		"definition": "cooldown_reduction",
+		"x": 608,
+		"y": 203.22729475474824,
+		"root": false
+	},
+	"vvamc9oojfcy69r1": {
+		"definition": "summon_damage",
+		"x": -608,
+		"y": 203.22729475474824,
+		"root": false
+	},
+	"wwk3ep5e0slb6e5x": {
+		"definition": "summon_damage",
+		"x": 608,
+		"y": -203.22729475474824,
+		"root": false
+	},
+	"n5un25q1n83kfg9f": {
+		"definition": "left_eye",
+		"x": -576,
+		"y": 0,
+		"root": false
+	},
+	"h268s4mwqmzt0ffk": {
+		"definition": "right_eye",
+		"x": 576,
+		"y": 0,
+		"root": false
+	}
+}

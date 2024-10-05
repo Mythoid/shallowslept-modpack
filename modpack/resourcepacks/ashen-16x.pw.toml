@@ -1,0 +1,13 @@
+name = "Ashen 16x"
+filename = "Ashen_1.8.3.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "17cd0b247e5c0e2c9db4baf9bd253081a74b55dc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5695592
+project-id = 864112
