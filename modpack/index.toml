@@ -69,51 +69,51 @@ file = "defaultconfigs/paraglider-server.toml"
 hash = "1fb3a40c4f28392c2dd88818052cc9c94d1b3a1d14cf1fd9b0e88bbb107322c2"
 
 [[files]]
-file = "global_packs/puffish_skills_config/data/shallowslept/puffish_skills/categories/combat/category.json"
+file = "global_packs/required_data/puffish_skills_config/data/shallowslept/puffish_skills/categories/combat/category.json"
 hash = "ca45580a3016bfd546a18d2ff15b133e8fdbd6e1da50939c394b7b3762973eb8"
 
 [[files]]
-file = "global_packs/puffish_skills_config/data/shallowslept/puffish_skills/categories/combat/connections.json"
+file = "global_packs/required_data/puffish_skills_config/data/shallowslept/puffish_skills/categories/combat/connections.json"
 hash = "fdbda2fc731a3d7882c7e563dac3f24cea631c44e9fe908318cd69d24bc2b476"
 
 [[files]]
-file = "global_packs/puffish_skills_config/data/shallowslept/puffish_skills/categories/combat/definitions.json"
+file = "global_packs/required_data/puffish_skills_config/data/shallowslept/puffish_skills/categories/combat/definitions.json"
 hash = "eaa579a069815d210e6ca8e41ec392f6c23038ce0efa0678f3f6b2fe9f6f269c"
 
 [[files]]
-file = "global_packs/puffish_skills_config/data/shallowslept/puffish_skills/categories/combat/experience.json"
+file = "global_packs/required_data/puffish_skills_config/data/shallowslept/puffish_skills/categories/combat/experience.json"
 hash = "6c0cb907843c152bd7555946be6f7b9a6c748a49ba66914a036b366d4a100b2f"
 
 [[files]]
-file = "global_packs/puffish_skills_config/data/shallowslept/puffish_skills/categories/combat/skills.json"
+file = "global_packs/required_data/puffish_skills_config/data/shallowslept/puffish_skills/categories/combat/skills.json"
 hash = "06aa22cbe62a0be5282a51da7f72a18793c6bf3d9ec579909a5c46b9e4c67863"
 
 [[files]]
-file = "global_packs/puffish_skills_config/data/shallowslept/puffish_skills/categories/magic/category.json"
+file = "global_packs/required_data/puffish_skills_config/data/shallowslept/puffish_skills/categories/magic/category.json"
 hash = "4dbb6a0f2ffdcdfe33d9552757ba784c37b804aac663973be38f868722ca1652"
 
 [[files]]
-file = "global_packs/puffish_skills_config/data/shallowslept/puffish_skills/categories/magic/connections.json"
+file = "global_packs/required_data/puffish_skills_config/data/shallowslept/puffish_skills/categories/magic/connections.json"
 hash = "9c5a24b271a21cc7af1a1b3de76123793afabe7c5bc21c6ca482a53e67821797"
 
 [[files]]
-file = "global_packs/puffish_skills_config/data/shallowslept/puffish_skills/categories/magic/definitions.json"
+file = "global_packs/required_data/puffish_skills_config/data/shallowslept/puffish_skills/categories/magic/definitions.json"
 hash = "e0a7df6831e28a7240223aa5309d119bdda6166f1e6134b5703cb38587b681b0"
 
 [[files]]
-file = "global_packs/puffish_skills_config/data/shallowslept/puffish_skills/categories/magic/experience.json"
+file = "global_packs/required_data/puffish_skills_config/data/shallowslept/puffish_skills/categories/magic/experience.json"
 hash = "0e527d8370ea334e7f7697e82516c692219b796f5020dd6df939cdefec1038d6"
 
 [[files]]
-file = "global_packs/puffish_skills_config/data/shallowslept/puffish_skills/categories/magic/skills.json"
+file = "global_packs/required_data/puffish_skills_config/data/shallowslept/puffish_skills/categories/magic/skills.json"
 hash = "1b338bf1dc4e15ce1147235f8fb87bd1e2804f125f661bda840f3cdc8b93fcf7"
 
 [[files]]
-file = "global_packs/puffish_skills_config/data/shallowslept/puffish_skills/config.json"
+file = "global_packs/required_data/puffish_skills_config/data/shallowslept/puffish_skills/config.json"
 hash = "a196312c12ece78bb77d5230dc7137a39a48b4c4528cfc321752e935065191d8"
 
 [[files]]
-file = "global_packs/puffish_skills_config/pack.mcmeta"
+file = "global_packs/required_data/puffish_skills_config/pack.mcmeta"
 hash = "627b069a8b5d0be1e5ab4b273688a9ea518da92c88f2bb7b9f4adaec65b55b92"
 
 [[files]]
@@ -578,7 +578,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "b0f72c224fe6c6a269af23e6e0fa1f32feb42d3b737820f8ea15316375275414"
+hash = "9511ba7c2cffa09450206e171b129cd38fdad14ced8aa660c90cf65952894344"
 
 [[files]]
 file = "resourcepacks/ashen-16x.pw.toml"
