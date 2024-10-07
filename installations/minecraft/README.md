@@ -5,7 +5,7 @@
 NOTE: You need to only do this once and the modpack is automatically updated whenever modlist is changed!
 
 1. Download Forge Installer (`1.20.1-47.3.10`) from [**here**](https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.10/forge-1.20.1-47.3.10-installer.jar) and click on `Install Client` and install to the default Minecraft installation (typically, `~/.minecraft` or `%appdata%\.minecraft` on Windows)
-2. Download the `shallowslept-mclauncher.zip` archive from Releases, and extract everything into your default Minecraft installation location.
+2. Download the `shallowslept-mclauncher.zip` archive from [**Releases**](https://github.com/Mythoid/shallowslept-modpack/releases), and extract everything into your default Minecraft installation location.
 3. Add the following snippet to the `launcher_profiles.json` file in your default Minecraft installation location, under the `profiles` group:
    ```json
    "shallowslept-modpack-instance": {
