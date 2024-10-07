@@ -18,7 +18,7 @@ hash = "0173e30c7aed71680a12815cab4f680784ad3906cde5218802a8821ad607f18c"
 
 [[files]]
 file = "config/dummmmmmy-common.toml"
-hash = "002ad294bd043a984ef3a992668110289c91bdd76516451a20393cd533429199"
+hash = "c608df572a9a83c52ada5c854d0628c5e60ce11612b3c14e5e05a4e1595877a3"
 
 [[files]]
 file = "config/easyanvils-server.toml"
