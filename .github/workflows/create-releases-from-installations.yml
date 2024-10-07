@@ -1,0 +1,34 @@
+name: Create Releases from Installations
+on: [workflow_dispatch]
+permissions:
+  contents: write
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    env:
+      MODPACK: shallowslept
+    steps:
+      - uses: actions/checkout@v4   # Checkout repository
+      - name: Set Timestamp
+        run: echo "TIMESTAMP=$(date +%F_%H-%M-%S)" >> "$GITHUB_ENV"
+      - name: Minecraft Launcher ZIP Archive
+        working-directory: ./installations/minecraft
+        env:
+          LAUNCHER: mclauncher
+        run: |
+          zip -r "$MODPACK-$LAUNCHER-$TIMESTAMP.zip" . -x README.md
+          mv "$MODPACK-$LAUNCHER-$TIMESTAMP.zip" ../..
+      - name: Prism Launcher ZIP Archive
+        working-directory: ./installations/prismlauncher
+        env:
+          LAUNCHER: prismlauncher
+        run: |
+          zip -r "$MODPACK-$LAUNCHER-$TIMESTAMP.zip" . -x README.md
+          mv "$MODPACK-$LAUNCHER-$TIMESTAMP.zip" ../..
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ env.TIMESTAMP }}
+          files: |
+            *.zip
+          fail_on_unmatched_files: true
