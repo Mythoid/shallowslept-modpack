@@ -5,3 +5,10 @@ The pack currently uses Minecraft 1.20.1 as a base, Forge as the modloader and i
 
 ## Modlist
 See [here](modpack/mods/)
+
+## Installation Instructions
+### Via Ezily (coming soon)
+### Manual Installation
+We currently only support Minecraft official launcher and Prism Launcher, please check out the following links:
+* Minecraft Launcher: [here](installations/minecraft/)
+* Prism Launcher: [here](installations/prismlauncher/)
