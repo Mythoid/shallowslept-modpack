@@ -262,6 +262,11 @@ hash = "7ed550adeeb4a7a12e124d63e44ef23e24292254f312e64686df8b42827b6f18"
 metafile = true
 
 [[files]]
+file = "mods/dynamiclights-reforged.pw.toml"
+hash = "78a091260b9222015297aed566ff0302c84a3111f0e168b79bde1927df3d0205"
+metafile = true
+
+[[files]]
 file = "mods/easy-anvils.pw.toml"
 hash = "3b17a2980b74426f94633164b0c068f8afa025eabee0e0bd1a32c5965361c028"
 metafile = true
@@ -382,6 +387,11 @@ hash = "d71706d797a755e0181080e1e82470581b1faa08013f312a671b8d3cc3133b09"
 metafile = true
 
 [[files]]
+file = "mods/magnesium-extras.pw.toml"
+hash = "45af9f0444a9874a7bc42da6d41452c4d35e040dc320958ceaccdaeed2d68548"
+metafile = true
+
+[[files]]
 file = "mods/mariums-soulslike-weaponry.pw.toml"
 hash = "a046012af4b6bf79a0c79122968c013fc3adb1a95cb296e508065e0a4718d427"
 metafile = true
@@ -467,6 +477,11 @@ hash = "d92b242de1f5ba59226bbe69a6567493434874ecb63413fec62d82b43f081f4e"
 metafile = true
 
 [[files]]
+file = "mods/radium.pw.toml"
+hash = "ae4d739bbdb025651a884093de72addac0865525b39e603fb575031a59987763"
+metafile = true
+
+[[files]]
 file = "mods/realm-rpg-quests-rewards.pw.toml"
 hash = "d8445c41a11d0e813ccf86a7b5a3ba0677280a1c1cab6054dfe2445cdb8f0744"
 metafile = true
@@ -499,6 +514,11 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "cbbeaf66562c953914c1f5df69b449d4c7b0c471441289f84282bbcdc13737db"
+metafile = true
+
+[[files]]
+file = "mods/sodium-options-api.pw.toml"
+hash = "09a7aa0c26c7504ced2da9e0f733ba2a8a102c997b9af1cc6ddb95c6acd24484"
 metafile = true
 
 [[files]]
