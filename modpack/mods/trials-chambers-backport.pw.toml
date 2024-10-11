@@ -1,0 +1,13 @@
+name = "Trials Chambers [1.20.1 Backport]"
+filename = "Trials-2.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/s5Igmyc6/versions/HY38dRp3/Trials-2.2.1.jar"
+hash-format = "sha512"
+hash = "16ccd7238cfe691250aae76daeb22ed3206f33dd7a4199b2224139d512c37a4e41b51335d5f9a19d2b68af5106b854755e0c5349557c513c14131c12dc9ef4a5"
+
+[update]
+[update.modrinth]
+mod-id = "s5Igmyc6"
+version = "HY38dRp3"

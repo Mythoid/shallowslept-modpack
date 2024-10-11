@@ -552,6 +552,11 @@ hash = "1bfc00546eacc516fef33abcaabce4499f4e8508d56f0ed8e3d55736831acfdd"
 metafile = true
 
 [[files]]
+file = "mods/trials-chambers-backport.pw.toml"
+hash = "a4a9b6b80605bd9d4724a0150a5cab65ed966b2a03e64dcc3c8aea25250ab60e"
+metafile = true
+
+[[files]]
 file = "mods/villager-names.pw.toml"
 hash = "25d37e71f7f9149c137f969fc5b5fe999b153d6dbbf8852cc1c3ead380a69d73"
 metafile = true
